@@ -1,0 +1,6 @@
+prepend_path(    "PATH",           pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-gcc","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-gcc","lib")   )
+setenv( "LMOD_CATCH2_DIR",     "/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-gcc"                     )
+setenv( "LMOD_CATCH2_INC",     pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-gcc","include")   )
+setenv( "LMOD_CATCH2_LIB",     pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-gcc","lib")   )
+setenv( "LMOD_CATCH2_BIN",     pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-gcc","bin")   )

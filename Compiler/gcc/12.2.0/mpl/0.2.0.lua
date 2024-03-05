@@ -1,0 +1,6 @@
+prepend_path(    "PATH",           pathJoin("/Users/eijkhout/Installation/mpl/installation-0.2.0-macbookair-gcc","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/Users/eijkhout/Installation/mpl/installation-0.2.0-macbookair-gcc","lib")   )
+setenv( "TACC_MPL_DIR",     "/Users/eijkhout/Installation/mpl/installation-0.2.0-macbookair-gcc"                     )
+setenv( "TACC_MPL_INC",     pathJoin("/Users/eijkhout/Installation/mpl/installation-0.2.0-macbookair-gcc","include")   )
+setenv( "TACC_MPL_LIB",     pathJoin("/Users/eijkhout/Installation/mpl/installation-0.2.0-macbookair-gcc","lib")   )
+setenv( "TACC_MPL_BIN",     pathJoin("/Users/eijkhout/Installation/mpl/installation-0.2.0-macbookair-gcc","bin")   )

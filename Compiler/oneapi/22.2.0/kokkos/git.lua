@@ -1,0 +1,7 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/kokkos/installation-git-milan-oneapi","lib64")   )
+setenv( "LMOD_KOKKOS_DIR",     "/work/00434/eijkhout/kokkos/installation-git-milan-oneapi"                     )
+setenv( "LMOD_KOKKOS_INC",     pathJoin("/work/00434/eijkhout/kokkos/installation-git-milan-oneapi","include")   )
+setenv( "LMOD_KOKKOS_LIB",     pathJoin("/work/00434/eijkhout/kokkos/installation-git-milan-oneapi","lib64")   )
+setenv( "TACC_KOKKOS_DIR",     "/work/00434/eijkhout/kokkos/installation-git-milan-oneapi"                     )
+setenv( "TACC_KOKKOS_INC",     pathJoin("/work/00434/eijkhout/kokkos/installation-git-milan-oneapi","include")   )
+setenv( "TACC_KOKKOS_LIB",     pathJoin("/work/00434/eijkhout/kokkos/installation-git-milan-oneapi","lib64")   )

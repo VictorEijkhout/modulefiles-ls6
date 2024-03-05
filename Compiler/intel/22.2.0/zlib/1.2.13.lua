@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/zlib/installation-1.2.13-milan-intel","lib")   )
+setenv( "LMOD_ZLIB_DIR",     "/work/00434/eijkhout/zlib/installation-1.2.13-milan-intel"                     )
+setenv( "LMOD_ZLIB_INC",     pathJoin("/work/00434/eijkhout/zlib/installation-1.2.13-milan-intel","include")   )
+setenv( "LMOD_ZLIB_LIB",     pathJoin("/work/00434/eijkhout/zlib/installation-1.2.13-milan-intel","lib")   )
+setenv( "TACC_ZLIB_DIR",     "/work/00434/eijkhout/zlib/installation-1.2.13-milan-intel"                     )
+setenv( "TACC_ZLIB_INC",     pathJoin("/work/00434/eijkhout/zlib/installation-1.2.13-milan-intel","include")   )
+setenv( "TACC_ZLIB_LIB",     pathJoin("/work/00434/eijkhout/zlib/installation-1.2.13-milan-intel","lib")   )
+prepend_path( "PKG_CONFIG_PATH", pathJoin( "/work/00434/eijkhout/zlib/installation-1.2.13-milan-intel","share/pkgconfig" ) )

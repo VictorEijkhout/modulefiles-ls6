@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-gcc","lib")   )
+setenv( "LMOD_CXXOPTS_DIR",     "/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-gcc"                     )
+setenv( "LMOD_CXXOPTS_INC",     pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-gcc","include")   )
+setenv( "LMOD_CXXOPTS_LIB",     pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-gcc","lib")   )
+setenv( "TACC_CXXOPTS_DIR",     "/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-gcc"                     )
+setenv( "TACC_CXXOPTS_INC",     pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-gcc","include")   )
+setenv( "TACC_CXXOPTS_LIB",     pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-gcc","lib")   )
+prepend_path( "PKG_CONFIG_PATH", pathJoin( "/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-gcc","lib64/pkgconfig" ) )

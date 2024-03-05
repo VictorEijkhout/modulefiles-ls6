@@ -1,0 +1,8 @@
+prepend_path(    "PATH",           pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-oneapi-impi","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-oneapi-impi","lib")   )
+setenv( "LMOD_PETSC_DIR",     "/work/00434/eijkhout/petsc/petsc-3.18.2/milan-oneapi-impi"                     )
+setenv( "LMOD_PETSC_INC",     pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-oneapi-impi","include")   )
+setenv( "LMOD_PETSC_LIB",     pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-oneapi-impi","lib")   )
+setenv( "LMOD_PETSC_BIN",     pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-oneapi-impi","bin")   )
+setenv( "PETSC_DIR",  "/work/00434/eijkhout/petsc/petsc-3.18.2" )
+setenv( "PETSC_ARCH", "milan-oneapi-impi" )

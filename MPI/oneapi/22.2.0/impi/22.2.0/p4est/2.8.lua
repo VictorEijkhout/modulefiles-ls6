@@ -1,0 +1,7 @@
+prepend_path(    "PATH",           pathJoin("/work/00434/eijkhout/p4est/installation-2.8-milan-oneapi-impi","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/p4est/installation-2.8-milan-oneapi-impi","lib")   )
+setenv( "LMOD_P4EST_DIR",     "/work/00434/eijkhout/p4est/installation-2.8-milan-oneapi-impi"                     )
+setenv( "LMOD_P4EST_INC",     pathJoin("/work/00434/eijkhout/p4est/installation-2.8-milan-oneapi-impi","include")   )
+setenv( "LMOD_P4EST_LIB",     pathJoin("/work/00434/eijkhout/p4est/installation-2.8-milan-oneapi-impi","lib")   )
+setenv( "LMOD_P4EST_BIN",     pathJoin("/work/00434/eijkhout/p4est/installation-2.8-milan-oneapi-impi","bin")   )
+prepend_path( "PKG_CONFIG_PATH", pathJoin( "/work/00434/eijkhout/p4est/installation-2.8-milan-oneapi-impi","lib/pkgconfig" ) )

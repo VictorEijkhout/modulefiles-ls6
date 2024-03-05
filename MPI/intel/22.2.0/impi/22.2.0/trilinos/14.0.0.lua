@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/trilinos/installation-14.0.0-milan-intel-impi","lib64")   )
+setenv( "LMOD_TRILINOS_DIR",     "/work/00434/eijkhout/trilinos/installation-14.0.0-milan-intel-impi"                     )
+setenv( "LMOD_TRILINOS_INC",     pathJoin("/work/00434/eijkhout/trilinos/installation-14.0.0-milan-intel-impi","include")   )
+setenv( "LMOD_TRILINOS_LIB",     pathJoin("/work/00434/eijkhout/trilinos/installation-14.0.0-milan-intel-impi","lib64")   )
+setenv( "TACC_TRILINOS_DIR",     "/work/00434/eijkhout/trilinos/installation-14.0.0-milan-intel-impi"                     )
+setenv( "TACC_TRILINOS_INC",     pathJoin("/work/00434/eijkhout/trilinos/installation-14.0.0-milan-intel-impi","include")   )
+setenv( "TACC_TRILINOS_LIB",     pathJoin("/work/00434/eijkhout/trilinos/installation-14.0.0-milan-intel-impi","lib64")   )
+prepend_path("CMAKE_PREFIX_PATH",                 pathJoin( "/work/00434/eijkhout/trilinos/installation-14.0.0-milan-intel-impi","lib/cmake") )

@@ -1,0 +1,6 @@
+prepend_path(    "PATH",           pathJoin("/work/00434/eijkhout/lapackpp/installation-git-milan-intel","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/lapackpp/installation-git-milan-intel","lib")   )
+setenv( "LMOD_LAPACKPP_DIR",     "/work/00434/eijkhout/lapackpp/installation-git-milan-intel"                     )
+setenv( "LMOD_LAPACKPP_INC",     pathJoin("/work/00434/eijkhout/lapackpp/installation-git-milan-intel","include")   )
+setenv( "LMOD_LAPACKPP_LIB",     pathJoin("/work/00434/eijkhout/lapackpp/installation-git-milan-intel","lib")   )
+setenv( "LMOD_LAPACKPP_BIN",     pathJoin("/work/00434/eijkhout/lapackpp/installation-git-milan-intel","bin")   )

@@ -1,0 +1,7 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-intel","lib")   )
+setenv( "LMOD_BOOST_DIR",     "/work/00434/eijkhout/boost/installation-1.81.0-milan-intel"                     )
+setenv( "LMOD_BOOST_INC",     pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-intel","include")   )
+setenv( "LMOD_BOOST_LIB",     pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-intel","lib")   )
+setenv( "TACC_BOOST_DIR",     "/work/00434/eijkhout/boost/installation-1.81.0-milan-intel"                     )
+setenv( "TACC_BOOST_INC",     pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-intel","include")   )
+setenv( "TACC_BOOST_LIB",     pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-intel","lib")   )

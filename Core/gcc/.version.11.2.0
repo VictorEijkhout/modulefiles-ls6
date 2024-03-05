@@ -1,0 +1,6 @@
+#%Module3.1.1#################################################
+##
+## version file for %{BASENAME}11.2.0
+##
+
+set     ModulesVersion      "11.2.0"

@@ -1,0 +1,6 @@
+prepend_path(    "PATH",           pathJoin("/Users/eijkhout/Installation/petsc/installation-3.18.2-macbookair-clang-","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/Users/eijkhout/Installation/petsc/installation-3.18.2-macbookair-clang-","lib")   )
+setenv( "LMOD_PETSC_DIR",     "/Users/eijkhout/Installation/petsc/installation-3.18.2-macbookair-clang-"                     )
+setenv( "LMOD_PETSC_INC",     pathJoin("/Users/eijkhout/Installation/petsc/installation-3.18.2-macbookair-clang-","include")   )
+setenv( "LMOD_PETSC_LIB",     pathJoin("/Users/eijkhout/Installation/petsc/installation-3.18.2-macbookair-clang-","lib")   )
+setenv( "LMOD_PETSC_BIN",     pathJoin("/Users/eijkhout/Installation/petsc/installation-3.18.2-macbookair-clang-","bin")   )

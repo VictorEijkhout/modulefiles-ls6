@@ -1,0 +1,6 @@
+prepend_path(    "PATH",           pathJoin("/work2/00434/eijkhout/kokkos/installation-git-clx-intel","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/kokkos/installation-git-clx-intel","lib64")   )
+setenv( "LMOD_KOKKOS_DIR",     "/work2/00434/eijkhout/kokkos/installation-git-clx-intel"                     )
+setenv( "LMOD_KOKKOS_INC",     pathJoin("/work2/00434/eijkhout/kokkos/installation-git-clx-intel","include")   )
+setenv( "LMOD_KOKKOS_LIB",     pathJoin("/work2/00434/eijkhout/kokkos/installation-git-clx-intel","lib64")   )
+setenv( "LMOD_KOKKOS_BIN",     pathJoin("/work2/00434/eijkhout/kokkos/installation-git-clx-intel","bin")   )

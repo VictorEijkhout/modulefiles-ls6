@@ -1,0 +1,5 @@
+prepend_path(    "PATH",           pathJoin("/Users/eijkhout/Installation/eigen/installation-3.4.0-macbookair-clang","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/Users/eijkhout/Installation/eigen/installation-3.4.0-macbookair-clang","lib")   )
+setenv( "TACC_EIGEN_DIR",     "/Users/eijkhout/Installation/eigen/installation-3.4.0-macbookair-clang"                     )
+setenv( "TACC_EIGEN_LIB",     pathJoin("/Users/eijkhout/Installation/eigen/installation-3.4.0-macbookair-clang","lib")   )
+setenv( "TACC_EIGEN_BIN",     pathJoin("/Users/eijkhout/Installation/eigen/installation-3.4.0-macbookair-clang","bin")   )

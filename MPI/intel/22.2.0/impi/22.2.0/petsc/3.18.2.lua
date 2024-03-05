@@ -1,0 +1,8 @@
+prepend_path(    "PATH",           pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-intel-impi","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-intel-impi","lib")   )
+setenv( "LMOD_PETSC_DIR",     "/work/00434/eijkhout/petsc/petsc-3.18.2/milan-intel-impi"                     )
+setenv( "LMOD_PETSC_INC",     pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-intel-impi","include")   )
+setenv( "LMOD_PETSC_LIB",     pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-intel-impi","lib")   )
+setenv( "LMOD_PETSC_BIN",     pathJoin("/work/00434/eijkhout/petsc/petsc-3.18.2/milan-intel-impi","bin")   )
+setenv( "PETSC_DIR",  "/work/00434/eijkhout/petsc/petsc-3.18.2" )
+setenv( "PETSC_ARCH", "milan-intel-impi" )

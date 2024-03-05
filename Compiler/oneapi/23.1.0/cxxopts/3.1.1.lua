@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-oneapi","lib")   )
+setenv( "LMOD_CXXOPTS_DIR",     "/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-oneapi"                     )
+setenv( "LMOD_CXXOPTS_INC",     pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-oneapi","include")   )
+setenv( "LMOD_CXXOPTS_LIB",     pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-oneapi","lib")   )
+setenv( "TACC_CXXOPTS_DIR",     "/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-oneapi"                     )
+setenv( "TACC_CXXOPTS_INC",     pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-oneapi","include")   )
+setenv( "TACC_CXXOPTS_LIB",     pathJoin("/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-oneapi","lib")   )
+prepend_path( "PKG_CONFIG_PATH", pathJoin( "/work/00434/eijkhout/cxxopts/installation-3.1.1-milan-oneapi","lib64/pkgconfig" ) )

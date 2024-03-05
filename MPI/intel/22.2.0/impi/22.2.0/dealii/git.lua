@@ -1,0 +1,7 @@
+prepend_path(    "PATH",           pathJoin("/work/00434/eijkhout/dealii/installation-git-milan-intel-impi","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/dealii/installation-git-milan-intel-impi","lib")   )
+setenv( "LMOD_DEALII_DIR",     "/work/00434/eijkhout/dealii/installation-git-milan-intel-impi"                     )
+setenv( "LMOD_DEALII_INC",     pathJoin("/work/00434/eijkhout/dealii/installation-git-milan-intel-impi","include")   )
+setenv( "LMOD_DEALII_LIB",     pathJoin("/work/00434/eijkhout/dealii/installation-git-milan-intel-impi","lib")   )
+setenv( "LMOD_DEALII_BIN",     pathJoin("/work/00434/eijkhout/dealii/installation-git-milan-intel-impi","bin")   )
+prepend_path( "PKG_CONFIG_PATH", pathJoin( "/work/00434/eijkhout/dealii/installation-git-milan-intel-impi","lib/pkgconfig" ) )

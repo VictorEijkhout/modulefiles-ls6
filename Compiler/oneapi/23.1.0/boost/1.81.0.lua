@@ -1,0 +1,7 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-oneapi","lib")   )
+setenv( "LMOD_BOOST_DIR",     "/work/00434/eijkhout/boost/installation-1.81.0-milan-oneapi"                     )
+setenv( "LMOD_BOOST_INC",     pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-oneapi","include")   )
+setenv( "LMOD_BOOST_LIB",     pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-oneapi","lib")   )
+setenv( "TACC_BOOST_DIR",     "/work/00434/eijkhout/boost/installation-1.81.0-milan-oneapi"                     )
+setenv( "TACC_BOOST_INC",     pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-oneapi","include")   )
+setenv( "TACC_BOOST_LIB",     pathJoin("/work/00434/eijkhout/boost/installation-1.81.0-milan-oneapi","lib")   )

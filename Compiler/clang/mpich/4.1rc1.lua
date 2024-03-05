@@ -1,0 +1,7 @@
+prepend_path(    "PATH",           pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","lib")   )
+setenv( "LMOD_MPICH_DIR",     "/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang"                     )
+setenv( "LMOD_MPICH_INC",     pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","include")   )
+setenv( "LMOD_MPICH_LIB",     pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","lib")   )
+setenv( "LMOD_MPICH_BIN",     pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","bin")   )
+family("mpi")

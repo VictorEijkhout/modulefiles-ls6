@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/metis/installation-5.1.0.3-milan-intel23-impi","lib")   )
+setenv( "LMOD_METIS_DIR",     "/work/00434/eijkhout/metis/installation-5.1.0.3-milan-intel23-impi"                     )
+setenv( "LMOD_METIS_INC",     pathJoin("/work/00434/eijkhout/metis/installation-5.1.0.3-milan-intel23-impi","include")   )
+setenv( "LMOD_METIS_LIB",     pathJoin("/work/00434/eijkhout/metis/installation-5.1.0.3-milan-intel23-impi","lib")   )
+setenv( "TACC_METIS_DIR",     "/work/00434/eijkhout/metis/installation-5.1.0.3-milan-intel23-impi"                     )
+setenv( "TACC_METIS_INC",     pathJoin("/work/00434/eijkhout/metis/installation-5.1.0.3-milan-intel23-impi","include")   )
+setenv( "TACC_METIS_LIB",     pathJoin("/work/00434/eijkhout/metis/installation-5.1.0.3-milan-intel23-impi","lib")   )
+prepend_path( "CMAKE_PREFIX_PATH", "/work/00434/eijkhout/metis/installation-5.1.0.3-milan-intel23-impi" )

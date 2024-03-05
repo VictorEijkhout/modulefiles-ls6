@@ -1,0 +1,6 @@
+prepend_path(    "PATH",           pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-clang","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-clang","lib")   )
+setenv( "TACC_CATCH2_DIR",     "/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-clang"                     )
+setenv( "TACC_CATCH2_INC",     pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-clang","include")   )
+setenv( "TACC_CATCH2_LIB",     pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-clang","lib")   )
+setenv( "TACC_CATCH2_BIN",     pathJoin("/Users/eijkhout/Installation/catch2/installation-3.1.1-macbookair-clang","bin")   )
