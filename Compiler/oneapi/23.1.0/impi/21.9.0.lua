@@ -1,6 +1,10 @@
--- Compiler/oneapi/23.1.0/impi/21.9.0.lua
-
 inherit()
 
-prepend_path("MODULEPATH",pathJoin(os.getenv("VICTOR_MODULEPATH_ROOT"),"MPI",os.getenv("TACC_FAMILY_COMPILER"),os.getenv("TACC_FAMILY_COMPILER_VERSION"),"impi","21.9.0"))
+local MP_ROOT = os.getenv("VICTOR_MODULEPATH_ROOT")
+local mpi     = "impi" 
+local version = "21.9.0"
+
+prepend_path("MODULEPATH",pathJoin(MP_ROOT,"MPI",
+  os.getenv("TACC_FAMILY_COMPILER"),os.getenv("TACC_FAMILY_COMPILER_VERSION"),mpi,version))
+
 family("mpi")

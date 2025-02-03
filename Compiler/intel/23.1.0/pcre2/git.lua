@@ -1,8 +1,0 @@
-prepend_path( "LD_LIBRARY_PATH",pathJoin("/work/00434/eijkhout/pcre2/installation-git-milan-intel23","lib")   )
-setenv( "LMOD_PCRE2_DIR",     "/work/00434/eijkhout/pcre2/installation-git-milan-intel23"                     )
-setenv( "LMOD_PCRE2_INC",     pathJoin("/work/00434/eijkhout/pcre2/installation-git-milan-intel23","include")   )
-setenv( "LMOD_PCRE2_LIB",     pathJoin("/work/00434/eijkhout/pcre2/installation-git-milan-intel23","lib")   )
-setenv( "TACC_PCRE2_DIR",     "/work/00434/eijkhout/pcre2/installation-git-milan-intel23"                     )
-setenv( "TACC_PCRE2_INC",     pathJoin("/work/00434/eijkhout/pcre2/installation-git-milan-intel23","include")   )
-setenv( "TACC_PCRE2_LIB",     pathJoin("/work/00434/eijkhout/pcre2/installation-git-milan-intel23","lib")   )
-prepend_path( "CMAKE_PREFIX_PATH", "/work/00434/eijkhout/pcre2/installation-git-milan-intel23" )
